@@ -7,8 +7,8 @@ the client uses.
 Under development.
 
 Parent project: [Rift Explorer Remastered](https://github.com/LongpanZhou/rift-explorer-remastered),
-which is a rewrite of [Pupix/rift-explorer](https://github.com/Pupix/rift-explorer).
-This app is the rewards part of that project, split out as its own app.
+a rewrite of [Pupix/rift-explorer](https://github.com/Pupix/rift-explorer). This app is
+the rewards part of that project, split out as its own app.
 
 ## How League rewards work
 
@@ -26,15 +26,12 @@ When it was tested on a real account, five grants were waiting: a Champion Capsu
 a Glorious Champion Capsule, a Mystery Icon, and two Hextech Chest & Key grants.
 They were all claimed with **Claim all**.
 
-## Screenshots
+## Screenshot
 
-| Rewards waiting | Icons you own |
-| --- | --- |
-| ![Rewards waiting](screenshots/01-rewards-waiting.png) | ![Owned icons](screenshots/02-owned-icons.png) |
+![Rewards waiting](screenshots/01-rewards-waiting.png)
 
-Both screenshots are from [Rift Explorer Remastered](https://github.com/LongpanZhou/rift-explorer-remastered),
-the parent app, which shows the same reward list. The rewards screenshot was taken
-before they were claimed. Your name, level and icon are blurred.
+This is the app showing sample rewards, using the same kinds of rewards that were
+waiting on the test account. Real rewards are listed the same way.
 
 ## What it does
 
@@ -47,18 +44,6 @@ before they were claimed. Your name, level and icon are blurred.
 
 - The League of Legends client, running and logged in.
 - macOS or Windows. The League client does not run on Linux, so the app cannot connect there.
-
-## Build and run
-
-You need [Bun](https://bun.sh) and [Rust](https://rustup.rs), plus the
-[Tauri prerequisites](https://tauri.app/start/prerequisites/) for your system.
-
-```sh
-bun install
-bun run sidecar          # builds the sidecar for your platform
-bun run tauri dev        # run the app
-bun test                 # tests
-```
 
 ## Releases
 
