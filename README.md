@@ -28,12 +28,13 @@ They were all claimed with **Claim all**.
 
 ## Screenshots
 
-| No rewards waiting | Icons you own (from Rift Explorer Remastered) |
+| Rewards waiting | Icons you own |
 | --- | --- |
-| ![No rewards waiting](screenshots/01-rewards-empty.png) | ![Owned icons](screenshots/02-owned-icons.png) |
+| ![Rewards waiting](screenshots/01-rewards-waiting.png) | ![Owned icons](screenshots/02-owned-icons.png) |
 
-The first screenshot shows the empty state, since all rewards on the test account were
-already claimed. The second is from Rift Explorer Remastered, the parent app.
+Both screenshots are from [Rift Explorer Remastered](https://github.com/LongpanZhou/rift-explorer-remastered),
+the parent app, which shows the same reward list. The rewards screenshot was taken
+before they were claimed. Your name, level and icon are blurred.
 
 ## What it does
 
