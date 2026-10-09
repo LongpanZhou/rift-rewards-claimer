@@ -1,0 +1,34 @@
+{
+  "name": "rift-rewards-claimer",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "test": "bun test",
+    "sidecar": "bun build --compile app/util/sidecar-main.ts --outfile src-tauri/binaries/lcu-sidecar-$(rustc --print host-tuple)"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2",
+    "axios": "0.21.1",
+    "chokidar": "3.5.0",
+    "fs-extra": "7.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "yaml": "1.10.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2",
+    "@types/bun": "^1.4.2",
+    "@types/fs-extra": "^7",
+    "@types/node": "^22",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^6.0.2",
+    "typescript": "~6.0.3",
+    "vite": "^8.0.16"
+  }
+}
